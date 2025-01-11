@@ -27,9 +27,63 @@
       }
     </style>
     <!-- CSS -->
+    <!-- Font Awesome  -->
+    <script
+      src="https://kit.fontawesome.com/49579891fb.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font Awesome  -->
+    <!-- Shared CSS -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              "primary-color": "#FF8938",
+              "secondary-color": "#FF0000",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- Shared CSS -->
   </head>
   <body class="manrope">
-    <header></header>
+    <header
+      class="md:max-w-screen-xl w-[95%] mx-auto flex flex-col-reverse md:flex-row items-center justify-between mt-5 md:mt-6 gap-8 md:gap-0"
+    >
+      <div class="text-center md:text-start space-y-3 md:space-y-0">
+        <div
+          class="md:text-6xl text-3xl space-y-4 font-extrabold text-[#1C1C1C] md:leading-[70px]"
+        >
+          <span class="md:block">It's good</span>
+          <span class="md:block">tea time at The</span> Tea House
+        </div>
+        <p class="text-[#777] md:py-4 py-2 md:max-w-[420px] md:leading-7">
+          Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your
+          Taste Buds.
+        </p>
+        <button
+          class="btn mx-auto md:mx-0 flex-row-reverse flex items-center gap-2 bg-gradient-to-r from-primary-color to-secondary-color text-white hover:scale-95 delay-100"
+        >
+          <img src="./images/arrow.png" alt="" />
+          <p>Explore Now</p>
+        </button>
+      </div>
+      <div class="relative">
+        <img src="./images/banner.png" alt="" />
+        <div
+          class="flex items-center py-3 md:py-6 px-4 md:px-10 rounded-lg absolute gap-3 bg-white md:shadow-xl md:bottom-4 md:left-16 bottom-0 left-8"
+        >
+          <i class="fa-regular fa-star text-[#FFF082] text-4xl font-bold"></i>
+          <div class="">
+            <h3 class="text-4xl font-extrabold">5.00</h3>
+            <p>Trust Pilot Ratings</p>
+          </div>
+        </div>
+      </div>
+    </header>
     <main></main>
     <footer></footer>
   </body>
