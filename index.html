@@ -211,9 +211,9 @@
       <!-- Great Tea ends here -->
       <!-- Super clients starts here -->
       <section
-        class="w-[95%] md:w-full bg-gradient-to-r from-orange-500 to-[#F00] h-auto md:min-h-screen flex flex-col md:flex-row items-center md:justify-between gap-10 md:gap-8 mx-auto rounded-lg md:max-w-screen-xl md:px-20 "
+        class="w-[95%] md:w-full bg-gradient-to-r from-orange-500 to-[#F00] h-auto md:min-h-screen flex flex-col md:flex-row items-center md:justify-between gap-10 md:gap-8 mx-auto rounded-lg md:max-w-screen-xl md:px-20"
       >
-        <div class="flex items-center flex-1  md:relative z-10 ">
+        <div class="flex items-center flex-1 md:relative z-10">
           <div class="text-white space-y-2 md:space-y-4 p-8 md:p-0">
             <h1 class="text-2xl font-extrabold md:text-5xl">
               Meet Our Super Clients
@@ -238,7 +238,7 @@
             <img class="h-full object-cover" src="./images/cup.png" alt="" />
           </div>
         </div>
-        <div class="flex-1 md:relative  ">
+        <div class="flex-1 md:relative">
           <div class="bg-white rounded-lg p-10 md:relative z-30">
             <img
               class="md:absolute -top-5 -left-5"
@@ -262,7 +262,7 @@
             </div>
           </div>
           <div
-            class="bg-white md:w-[480px] hidden  md:opacity-40 rounded-lg p-10 z-10 md:absolute md:block md:-top-[150px] md:-right-[50px]"
+            class="bg-white md:w-[480px] hidden md:opacity-40 rounded-lg p-10 z-10 md:absolute md:block md:-top-[150px] md:-right-[50px]"
           >
             <img
               class="md:absolute -top-5 -left-5"
@@ -325,9 +325,118 @@
             believable.
           </p>
         </div>
+        <div
+          class="md:my-8 my-4 flex flex-col gap-5 md:gap-0 md:flex-row items-center justify-between"
+        >
+          <div class="card bg-base-100 md:w-[400px] shadow-md border-2">
+            <figure class="px-3 pt-10">
+              <img src="./images/news-1.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body ml-4">
+              <p>Feb 05, 2027</p>
+              <h2 class="card-title font-extrabold">
+                Collecting 8 points for discount
+              </h2>
+              <p class="opacity-60">
+                There are many variations of passages of Lorem Ipsum available.
+              </p>
+              <div class="card-actions">
+                <button class="font-extrabold py-2">Learn More</button>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-base-100 md:w-[400px] shadow-md border-2">
+            <figure class="px-3 pt-10">
+              <img src="./images/news-2.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body ml-4">
+              <p>Feb 05, 2027</p>
+              <h2 class="card-title font-extrabold">
+                Collecting 8 points for discount
+              </h2>
+              <p class="opacity-60">
+                There are many variations of passages of Lorem Ipsum available.
+              </p>
+              <div class="card-actions">
+                <button class="font-extrabold py-2">Learn More</button>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-base-100 md:w-[400px] shadow-md border-2">
+            <figure class="px-3 pt-10">
+              <img src="./images/news-3.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body ml-4">
+              <p>Feb 05, 2027</p>
+              <h2 class="card-title font-extrabold">
+                Collecting 8 points for discount
+              </h2>
+              <p class="opacity-60">
+                There are many variations of passages of Lorem Ipsum available.
+              </p>
+              <div class="card-actions">
+                <button class="font-extrabold py-2">Learn More</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <!-- News and Events starts here -->
     </main>
-    <footer></footer>
+    <footer
+      class="bg-gradient-to-b from-pink-100 to-pink-50 text-base-content p-10"
+    >
+      <div class="flex gap-8 md:gap-0 md:items-center md:justify-between py-5 md:py-8">
+        <div>
+          <img src="./images/cup.png" alt="" />
+        </div>
+        <div class="flex items-center gap-5">
+          <p>Ready to get strated?</p>
+          <button
+            class="btn mx-auto md:mx-0 flex-row-reverse flex items-center gap-2 bg-gradient-to-r from-primary-color to-secondary-color text-white hover:scale-95 delay-100"
+          >
+            Show All
+          </button>
+        </div>
+      </div>
+      <div class="flex flex-col md:flex-row  justify-between mx-auto">
+        <nav class="flex flex-col space-y-1">
+          <h6 class="footer-title">Services</h6>
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav class="flex flex-col space-y-1">
+          <h6 class="footer-title">Company</h6>
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav class="flex flex-col space-y-1">
+          <h6 class="footer-title">Legal</h6>
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+        <form>
+          <h6 class="footer-title">Newsletter</h6>
+          <fieldset class="form-control w-80">
+            <label class="label">
+              <span class="label-text">Enter your email address</span>
+            </label>
+            <div class="join">
+              <input
+                type="text"
+                placeholder="username@site.com"
+                class="input border-b-2 border-gray-400 outline-none join-item"
+              />
+              <button class="btn btn-primary join-item">Subscribe</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </footer>
   </body>
 </html>
